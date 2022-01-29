@@ -1,4 +1,7 @@
-var life = 100.;
+var life = 100; //global
 
+life = life - 36;
 
-console.log('Hello world');
+let j = 20; //block
+
+console.log(life);
